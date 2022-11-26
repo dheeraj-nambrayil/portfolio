@@ -16,9 +16,6 @@
   --mb-6: 3rem;
   --z-back: -10;
   --z-fixed: 100;
-  align-self: center;
-  align-items: center;
-  align-content: center;
 }
 
 @media screen and (min-width: 968px) {
@@ -302,23 +299,23 @@ img {
   width: 60%;
 }
 
-.skills__ss {
+.skills__js {
   width: 85%;
 }
 
-.skills__cc {
+.skills__ux {
   width: 95%;
 }
 
 .skills__img {
   border-radius: .5rem;
 }
-.cert-container {
+.work__container {
   row-gap: 2rem;
   align-items: center;
 }
 
-.cert {
+.work__img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow:hidden;
@@ -326,11 +323,11 @@ img {
 
 }
 
-.cert img {
+.work__img img {
   transition: 1s;
 }
 
-.cert img:hover {
+.work_img img:hover {
   transform: scale(0.1);
 }
 .contact__input {
@@ -402,7 +399,7 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 300px;
+    width: 50px;
     bottom: 25%;
   }
   .about__container {
