@@ -408,7 +408,7 @@ img{
             }
         }
         &__img{
-            width: 100px;
+            width: 50px;
             bottom: 25%;
         }
     }
@@ -481,7 +481,7 @@ img{
         padding: 8rem 0 2rem;
         
         &__img{
-            width: 400px;
+            width: 50px;
             bottom: 10%;
         }
     }
@@ -492,7 +492,7 @@ img{
         }
         &__img{
             & img{
-                width: 300px;
+                width: 50px;
             }
         }
     }
@@ -517,7 +517,7 @@ img{
         padding: 10rem 0 2rem;
 
         &__img{
-            width: 100px;
+            width: 50px;
         }
     }
 }
